@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Teen Chore Monitor",
+    "slug": "teen-chore-monitor",
+    "scheme": "choremonitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.teenchoremonitor"
+    },
+    "android": {
+      "package": "com.example.teenchoremonitor",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "color": "#4F46E5",
+          "defaultChannel": "default"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Teen Chore Monitor to access your photos so you can attach before/after pictures of completed chores.",
+          "cameraPermission": "Allow Teen Chore Monitor to use the camera so you can take before/after pictures of completed chores."
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "5350b6f2-2393-4d11-9493-1d54bb225018"
+      }
+    },
+    "owner": "mrayyans10"
+  }
+}
