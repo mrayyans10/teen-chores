@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧹 Teen Chore Monitor
 
 A two-sided mobile app (one Expo codebase, role-based UI) where **parents** assign
@@ -145,3 +146,17 @@ Expo's push API for both iOS and Android.
 family. It's a reasonable starting point, **not** a hardened production policy — notably,
 `families` are selectable by any authenticated user (so teens can look up a family by
 invite code before joining). Review and tighten before shipping.
+=======
+# teen-chores
+I built TeenChores.
+
+Task Assignment: Parents assign specific chores directly through the app to their child's device.
+
+Photo Verification: To prevent fake progress, children must submit "before" and "after" photos showing the completed work.
+
+Parental Approval: Parents review the photo submissions on their own devices, approving successful work or asking for another attempt.
+
+Point System: Approved tasks instantly award points to the child's account
+
+Custom Reward Shop: Kids can redeem accumulated points for real-life rewards set up and customized by their parents.
+>>>>>>> 0c07f4c5dd7748dacd48164ba08120e13eea25b9
